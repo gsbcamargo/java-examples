@@ -2,9 +2,7 @@ package org.gabriel.objetos;
 
 import java.math.BigDecimal;
 
-import org.gabriel.interfaces.Bonus;
-
-public class Gerente extends Funcionario implements Bonus {
+public class Gerente extends Funcionario {
 	
 	@Override
 	public BigDecimal calculaBonus() {
